@@ -48,10 +48,11 @@ body{
         </div>
 
     </nav>
-    <div class="container-fluid">
-        <div class="row g-3">
+
+<div class="container-fluid  mt-5">
+<div class="row g-3">
             
-    <div class="col-sm-12 col-md-6 col-lg-6 border-2 margin-left">
+    <div class="g-4 col-sm-12 col-md-6 col-lg-6 border-2">
         <div class="border-2 card text-center shadow mb-2">
                 <h1>School Office Hours</h1>
         </div>
@@ -101,29 +102,31 @@ body{
         </div>
     </div>
 
-    <div class="container mt-3 col-sm-12 col-md-6 col-lg-6 border-2 card p-4 mx-1">
+    <div class="container mt-3 col-sm-12 col-md-6 col-lg-6 border-2 card p-4 g-4">
         <h2> Contact Us </h2>
             <form>
                 <div class="mb-3 mt-3">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <label for="fullname">Full Name</label>
+                    <input type="fullname" class="form-control" id="fullname" placeholder="Enter your full name" name="fullname">
                 </div>
 
                 <div class="mb-3">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
                 </div>
 
-                <div class="form-check mb-3">
-                    <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                    </label>
+                <div class="mb-3">
+                    <label for="subject">Subject</label>
+                    <input type="subject" class="form-control" id="subject" placeholder="Enter subject" name="subject">
+                </div>
+                <div class="mb-3">
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="70" rows="5" placeholder="Type your message here"></textarea>
                 </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
     </div>
-
-
+</div>
 </body>
 </html>
